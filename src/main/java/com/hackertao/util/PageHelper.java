@@ -1,7 +1,12 @@
 package com.hackertao.util;
 
 /**
- * EasyUI 分页帮助类
+ * ClassName:PageHelper
+ * Function: 分页帮助类
+ * @author   HackerTao
+ * @version  1.0.1
+ * @Date	 2015-11-13	下午5:08:52
+ *	 
  */
 public class PageHelper implements java.io.Serializable {
 

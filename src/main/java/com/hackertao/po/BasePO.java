@@ -18,8 +18,8 @@ import java.io.Serializable;
 /**
  * ClassName:BasePO
  * Function: 基础的PO
- * @author   hackertao
- * @version  
+ * @author   HackerTao
+ * @version  1.0.1
  * @Date	 2015-11-13	下午5:08:52
  *	 
  */

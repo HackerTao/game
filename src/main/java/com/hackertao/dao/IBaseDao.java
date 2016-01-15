@@ -4,7 +4,14 @@ import java.util.List;
 import java.util.Map;
 
 import com.hackertao.po.BasePO;
-
+/**
+ * ClassName:IBaseDao
+ * Function: Dao基础接口
+ * @author   HackerTao
+ * @version  1.0.1
+ * @Date	 2014-11-23	下午4:15:08
+ *	 
+ */
 public interface IBaseDao<T extends BasePO> {
 
 	/**

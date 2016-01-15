@@ -4,6 +4,14 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+/**
+ * ClassName:BaseController
+ * Function: Controller基础类
+ * @author   HackerTao
+ * @version  1.0.1
+ * @Date	 2014-11-23	下午4:15:08
+ *	 
+ */
 @Controller
 @RequestMapping("/base")
 public class BaseController {

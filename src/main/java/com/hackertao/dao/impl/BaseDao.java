@@ -1,14 +1,11 @@
 /**
  * BaseDao.java
- * data
- *
- * Function：
- *
- *   ver     date      		author
- * ──────────────────────────────────
- *   		 2014-11-23 		JH
- *
- * Copyright (c) 2014, TNT All Rights Reserved.
+ * data<br>
+ * Function：<br>
+ *   ver     date      		author<br>
+ * ──────────────────────────────────<br>
+ *   1.0.1	2016-01-15		HackerTao<br>
+ * Copyright (c) 2016, TNT All Rights Reserved.
 */
 
 package com.hackertao.dao.impl;
@@ -26,10 +23,11 @@ import com.hackertao.po.BasePO;
 /**
  * ClassName:BaseDao
  * Function: Dao基础类
- * @author   JH
- * @version  
+ * @author   HackerTao
+ * @version  1.0.1
  * @Date	 2014-11-23	下午4:15:08
- *	 
+ * @see SqlSessionDaoSupport
+ * @see IBaseDao	 
  */
 public abstract class BaseDao<T extends BasePO> extends SqlSessionDaoSupport implements IBaseDao<T> {
 	
